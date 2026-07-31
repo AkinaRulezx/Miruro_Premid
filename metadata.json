@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schemas.premid.app/metadata/1.16",
+    "apiVersion": 1,
+    "author": {
+        "name": "q_wo2",
+        "id": "1238250053836079160"
+    },
+    "service": "Miruro",
+    "description": {
+        "en": "Stream your presence from Miruro to your friends on Discord.",
+        "jp": "Miruroからあなたの存在をDiscordの友達にストリーミングしましょう。"
+    },
+    "url": [
+        "miruro.tv",
+        "miruro.to"
+    ],
+    "regExp": "^https?[:][/][/](www[.])?miruro[.](tv|to)[/]",
+    "version": "1.0.0",
+    "logo": "https://i.imgur.com/UMlwRbP.png",
+    "thumbnail": "https://i.imgur.com/albncbN.png",
+    "color": "#6366f1",
+    "category": "anime",
+    "tags": [
+        "anime",
+        "streaming"
+    ],
+    "settings": [
+        {
+            "id": "multiLanguage",
+            "title": "Multi-language support",
+            "icon": "fas fa-language",
+            "value": true
+        },
+        {
+            "id": "showAnimeAsTitle",
+            "title": "Use anime name as header",
+            "icon": "fas fa-heading",
+            "value": false
+        },
+        {
+            "id": "buttons",
+            "title": "Show buttons",
+            "icon": "fas fa-link",
+            "value": true
+        },
+        {
+            "id": "timestamps",
+            "title": "Show elapsed time",
+            "icon": "fas fa-clock",
+            "value": true
+        },
+        {
+            "id": "showEpTitle",
+            "title": "Show episode title / chapter",
+            "icon": "fas fa-file-alt",
+            "value": true
+        }
+    ]
+}
